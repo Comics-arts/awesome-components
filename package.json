@@ -1,0 +1,23 @@
+{
+  "name": "awesome-components",
+  "version": "0.1.0",
+  "description": "The Awesome Components Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Comics-arts/awesome-components.git"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "Igor Arruda (igorrarruda@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Comics-arts/awesome-components/issues"
+  },
+  "homepage": "https://github.com/Comics-arts/awesome-components#readme"
+}
