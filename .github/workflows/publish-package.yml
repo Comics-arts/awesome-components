@@ -6,7 +6,8 @@ on:
       - main
 
 jobs:
-  publish-awesome-components:
+  release:
+    name: Publish package
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,6 +16,10 @@ jobs:
           node-version: 18
           registry-url: https://npm.pkg.github.com/
           scope: "@comics-arts"
+      - name: Check package version
+        uses: technote-space/package-version-check-action@v1
+        with:
+          COMMIT_DISABLED: 1
       - name: Install dependencies
         run: npm install
       - name: Run tests

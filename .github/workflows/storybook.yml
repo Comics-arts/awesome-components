@@ -46,6 +46,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          site: awesome-components
           token: ${{ secrets.GITHUB_TOKEN }}
-          keep_files: true
