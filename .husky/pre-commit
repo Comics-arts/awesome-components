@@ -3,3 +3,4 @@
 
 npx lint-staged
 npm run badge:version
+git add ./assets/version.badge.svg
