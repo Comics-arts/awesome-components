@@ -5,15 +5,19 @@ const config: StorybookConfig = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
+    "@storybook/addon-themes",
   ],
+  typescript: {
+    reactDocgen: "react-docgen",
+  },
   framework: {
     name: "@storybook/react-vite",
     options: {},
   },
   docs: {
     autodocs: "tag",
+    defaultName: "Documentation",
   },
 };
 export default config;

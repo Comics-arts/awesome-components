@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://github.com/chakra-ui/chakra-ui">
-    <img src="assets/logo-no-background.png" alt="Chakra logo" width="300" />
+    <img src="src/assets/logo-no-background.png" alt="Chakra logo" width="300" />
   </a>
 </p>
 
 <h1 align="center">Build Accessible React Apps</h1>
 <br />
 
-[![version](assets/version.badge.svg)](https://github.com/Comics-arts/awesome-components/pkgs/npm/awesome-components)
+[![version](src/assets/version.badge.svg)](https://github.com/Comics-arts/awesome-components/pkgs/npm/awesome-components)
 [![License: GPL v2+](https://img.shields.io/badge/License-GPL%20v2%2B-blue.svg)](http://www.gnu.org/licenses/gpl-2.0.html)
 
 Awesome Components is a library of accessible, reusable, and composable React components
