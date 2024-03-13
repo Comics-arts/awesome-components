@@ -7,7 +7,7 @@ import {
 } from "@testing-library/react";
 import { DefaultTheme, ThemeProvider } from "styled-components";
 import { PropsWithChildren, ReactElement } from "react";
-import { lightTheme } from "./styles/theme";
+import { lightTheme } from "./styles";
 
 const TEST_THEME = lightTheme;
 

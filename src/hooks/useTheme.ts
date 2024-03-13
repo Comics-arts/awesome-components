@@ -1,5 +1,5 @@
 import { useCallback, useState } from "react";
-import { darkTheme, lightTheme } from "../styles/theme";
+import { darkTheme, lightTheme } from "../styles";
 
 const useTheme = () => {
   const [theme, setTheme] = useState(lightTheme);

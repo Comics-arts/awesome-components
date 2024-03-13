@@ -1,7 +1,6 @@
 import { Preview } from "@storybook/react";
 import { ThemeProvider } from "styled-components";
-import { darkTheme, lightTheme } from "../src/styles/theme";
-import { GlobalStyle } from "../src/styles/GlobalStyle";
+import { GlobalStyle, darkTheme, lightTheme } from "../src/styles";
 import DocumentationTemplate from "./DocumentationTemplate.mdx";
 import { withThemeFromJSXProvider } from "@storybook/addon-themes";
 

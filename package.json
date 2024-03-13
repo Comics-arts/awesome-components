@@ -1,6 +1,6 @@
 {
   "name": "@comics-arts/awesome-components",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "The Awesome Components Library",
   "type": "module",
   "main": "dist/index.cjs.js",
@@ -55,7 +55,7 @@
     "@storybook/test": "^8.0.0",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
-    "@types/react": "^18.2.64",
+    "@types/react": "^18.2.65",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "badge-maker": "^3.3.1",
